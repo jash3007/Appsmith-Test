@@ -46,7 +46,7 @@ You need to have an Appsmith account to get started. Sign up on Appsmith cloud i
 > 
 > We will use APIs to fetch and update product details in this example. Using Appsmith’s plug-and-play support for many databases, you can also connect to the database of your choice. [Learn more](https://docs.appsmith.com/core-concepts/connecting-to-data-sources)
 
-1. From the Explorer on the left, click the + button adjacent to Queries/JS.
+1. From the Explorer on the left, click the **+** button adjacent to Queries/JS.
 
 <img width="655" alt="Add product api" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/ad49b7d0-cb6c-4f87-9cbc-badc8cc36d3d">
 
