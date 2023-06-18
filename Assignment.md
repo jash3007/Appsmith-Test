@@ -29,15 +29,18 @@ You need to have an Appsmith account to get started. Sign up on Appsmith cloud i
 1. When you create a new account, Appsmith adds a workspace with an application titled My first application on the homepage by default. You need to create a new empty application for this tutorial. If you are inside an application and need to go to the homepage, click on the Appsmith logo at the top left of the screen to go to the homepage.
 2. On the homepage, click the **+ New** button to the right of the screen under the default workspace. You'll land on a new application in the Edit mode.
 
-<img width="1279" alt="Product Catalog management" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/be2b0a66-8c34-474b-8ef4-42bc0a7f7d16">
+<img width="1279" alt="Product Catalog management" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/b9cb695a-296a-4d58-a98b-47db57f98176">
+
+
 
 3. Click the ⌵ icon on the top left next to the default application name. Select the Edit Name option. Rename the app to **Product Catalog Management.**
-4. On the Entity Explorer to the left of the screen, you'll see that Page 1 is the default page on the application. Hover over the page name and click the ︙ icon.
+4. On Entity Explorer to the left of the screen, you'll see that Page 1 is the default page on the application. Hover over the page name and click the ︙ icon.
 5. Select the **Edit Name** option. Rename the page to Product Information.
 
 <img width="496" alt="Edit page name" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/d07a0853-a570-4ab7-9b02-a5147489c55b">
 
 # Fetch product data
+
 
 > 📘 Note
 > 
@@ -46,21 +49,24 @@ You need to have an Appsmith account to get started. Sign up on Appsmith cloud i
 1. From the Explorer on the left, click the + button adjacent to Queries/JS.
 
 <img width="655" alt="Add product api" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/ad49b7d0-cb6c-4f87-9cbc-badc8cc36d3d">
-<capttion> Creating a new bank API </caption> 
+
 2. Select **New blank API.**
 3. Next, click the pencil icon next to the default API name on the top left and rename the API to **getProducts.**
 4. Select the **HTTP** method as **GET** and enter the API endpoint to fetch the product details.
 
-<img width="1274" alt="API response" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/131faac0-cb3f-4912-a063-d49a1b09b828">
+<img width="1274"  alt="API response" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/131faac0-cb3f-4912-a063-d49a1b09b828">
 
-> 📘 Note
-> 
+
+
+> 📘 Note 
+>
 > At this stage, we are explicitly defining the page number in the endpoint, as we have not created a table yet. After creating a table, you need to update the variable in the endpoint.
 
 5. Click on the **Run** button to test the API response. Ensure that you receive the 200 OK response.
 6. Navigate to **Settings** and toggle on "Run API on Page load," "Encode query params," and "Smart JSON substitution."
 
-<img width="749" alt="API settings" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/b21ddabb-7b72-4fe9-9b02-0f6aeb225a0c">
+<img width="753" alt="API settings" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/57e05e7c-1f38-4e9d-8fc5-f6c0dfbf5bb4">
+
 
 
 # Display product data on a table
