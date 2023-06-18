@@ -26,10 +26,10 @@ You need to have an Appsmith account to get started. Sign up on Appsmith cloud i
 
 # Create a new application​
 
-1. When you create a new account, Appsmith adds a workspace with an application titled My first application on the homepage by default. You need to create a new empty application for this tutorial. If you are inside an application and need to go to the homepage, click on the Appsmith logo at the top left of the screen to go to the homepage.
+1. When you create a new account, Appsmith adds a workspace with an application titled **My first application** on the homepage by default. You need to create a new application for this tutorial. If you are inside an application and need to go to the homepage, click on the Appsmith logo at the top left of the screen to go to the homepage.
 2. On the homepage, click the **+ New** button to the right of the screen under the default workspace. You'll land on a new application in the Edit mode.
 
-<img width="1279" alt="Product Catalog management" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/b9cb695a-296a-4d58-a98b-47db57f98176">
+<img width="1279" class ="center" alt="Product Catalog management" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/b9cb695a-296a-4d58-a98b-47db57f98176">
 
 
 
@@ -37,7 +37,7 @@ You need to have an Appsmith account to get started. Sign up on Appsmith cloud i
 4. On Entity Explorer to the left of the screen, you'll see that Page 1 is the default page on the application. Hover over the page name and click the ︙ icon.
 5. Select the **Edit Name** option. Rename the page to Product Information.
 
-<img width="496" alt="Edit page name" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/d07a0853-a570-4ab7-9b02-a5147489c55b">
+<img width="496" class ="center" alt="Edit page name" caption = "Final View of Product Catalog Manager" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/d07a0853-a570-4ab7-9b02-a5147489c55b">
 
 # Fetch product data
 
