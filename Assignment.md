@@ -16,6 +16,7 @@ This tutorial guides you through creating a basic product catalog manager on App
 Here's a screenshot of the final result:
 
 ![Final View of Product Catalog Manager](https://github.com/jash3007/Appsmith-Test/assets/136789365/56fc947e-27f4-49ce-ba23-3294c8382e7f)
+*Final view of Product Catalog Manager*
 
 
 Let's get started!
@@ -31,13 +32,15 @@ You need to have an Appsmith account to get started. Sign up on Appsmith cloud i
 
 <img width="1279" class ="center" alt="Product Catalog management" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/b9cb695a-296a-4d58-a98b-47db57f98176">
 
-
+_Create a new application_
 
 3. Click the ⌵ icon on the top left next to the default application name. Select the Edit Name option. Rename the app to **Product Catalog Management.**
 4. On Entity Explorer to the left of the screen, you'll see that Page 1 is the default page on the application. Hover over the page name and click the ︙ icon.
 5. Select the **Edit Name** option. Rename the page to Product Information.
 
-<img width="496" class ="center" alt="Edit page name" caption = "Final View of Product Catalog Manager" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/d07a0853-a570-4ab7-9b02-a5147489c55b">
+<img width="496" class ="center" alt="Edit page name" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/d07a0853-a570-4ab7-9b02-a5147489c55b">
+
+_Edit Page Name_
 
 # Fetch product data
 
@@ -50,13 +53,15 @@ You need to have an Appsmith account to get started. Sign up on Appsmith cloud i
 
 <img width="655" alt="Add product api" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/ad49b7d0-cb6c-4f87-9cbc-badc8cc36d3d">
 
+_Creating a new blank API_
+
 2. Select **New blank API.**
 3. Next, click the pencil icon next to the default API name on the top left and rename the API to **getProducts.**
 4. Select the **HTTP** method as **GET** and enter the API endpoint to fetch the product details.
 
 <img width="1274"  alt="API response" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/131faac0-cb3f-4912-a063-d49a1b09b828">
 
-
+_Configure API Endpoint to Fetch Product Details_
 
 > 📘 Note 
 >
@@ -67,6 +72,7 @@ You need to have an Appsmith account to get started. Sign up on Appsmith cloud i
 
 <img width="753" alt="API settings" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/57e05e7c-1f38-4e9d-8fc5-f6c0dfbf5bb4">
 
+_API Settings_
 
 
 # Display product data on a table
@@ -78,6 +84,8 @@ You need to have an Appsmith account to get started. Sign up on Appsmith cloud i
 
 <img width="1266" alt="bind api data" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/e1970c86-5c7d-447c-9422-c6d508b65857">
 
+_Bind data from API in Table_
+
 
 5. Configure the pagination by navigating to the properties of the table widget.
 6. Click the **+** button next to **onPageChange** > Select** Execute a query getProducts.run** > **getProducts.run**. Also, toggle on the server-side pagination. This helps fetch product data for the previous and next pages. As mentioned earlier, ensure that you update the variable in the API to enable pagination. Learn more about [Pagination](https://docs.appsmith.com/core-concepts/connecting-to-data-sources/authentication/connect-to-apis#pagination).
@@ -85,6 +93,7 @@ You need to have an Appsmith account to get started. Sign up on Appsmith cloud i
 
 ![Image data type (1)](https://github.com/jash3007/Appsmith-Test/assets/136789365/d2b35c81-445b-4da1-a941-9538f533a0f5)
 
+_Set Image Column type_
 
 8. Similarly, for the Edit column, ensure that you set the column type as **Button** from the column settings in the property pane for the Edit column.
 
@@ -95,6 +104,8 @@ You can re-arrange the columns from the table property panel as per your require
 To edit the product details, we need a combination of Modal and Form that allows updating product details. Refer to the image below for a better understanding:
 
 <img width="518" alt="Editable modal" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/e77bc2ec-633c-439d-a3cb-74d6cba1d8f9">
+
+_Sample Modal with Form_
 
 To create this, follow the steps below:
 
@@ -137,6 +148,8 @@ To create this, follow the steps below:
 
 <img width="1273" alt="PUT API" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/2a32b148-4558-441f-80f0-8032433c8b30">
 
+_Configure PUT API to Update Product Details_
+
 7. Navigate back to the form from the **Explorer** tab
 8. Select the default **Submit** button on the Form to connect the updateProducts query to a button.
    - On the property pane to the right of the screen, in the Label property box, change the label to `Update`.
@@ -148,6 +161,8 @@ To create this, follow the steps below:
      The Update button is now configured to execute the updateProducts query to save any modified product details on the Form and to refresh the Table widget with the updated information.
 
 <img width="918" alt="Update button" src="https://github.com/jash3007/Appsmith-Test/assets/136789365/fa71f134-924f-486c-95e9-e0581c7d3d9e">
+
+_Configure Update Button_
 
 # Deploy the application
 
